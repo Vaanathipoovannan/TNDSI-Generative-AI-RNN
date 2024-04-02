@@ -1,3 +1,8 @@
+#timeforecasting using RNN
+#using apple stock data to predict
+colab link: https://colab.research.google.com/drive/1LmAjBp_tENF4g9PkftTGjcDtNWv9SimY?usp=sharing
+
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
