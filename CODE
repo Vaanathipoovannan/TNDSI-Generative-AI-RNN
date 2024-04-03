@@ -78,7 +78,7 @@ model.add(Dense(units=1))
 
 model.compile(optimizer='adam',loss='mean_squared_error')
 
-model.fit(X_train,y_train,epochs=10,batch_size=32)
+model.fit(X_train,y_train,epochs=100,batch_size=32)
 
 
 test_data=test_dataset.iloc[:,1:2].values
